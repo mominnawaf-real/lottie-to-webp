@@ -23,6 +23,18 @@ Convert Lottie JSON animations to animated WebP files locally with full control 
 npm install
 ```
 
+### Docker
+
+Build the image:
+```bash
+docker build -t lottie-to-webp .
+```
+
+Run with Docker:
+```bash
+docker run -v $(pwd):/data lottie-to-webp /data/input.json /data/output.webp --fps 24 --quality 80
+```
+
 ## Usage
 
 ### CLI

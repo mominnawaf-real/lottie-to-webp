@@ -25,6 +25,18 @@ nvm use
 npm install
 ```
 
+### Docker
+
+Build image:
+```bash
+docker build -t lottie-to-webp .
+```
+
+Run with Docker (mount current directory as /data):
+```bash
+docker run -v $(pwd):/data lottie-to-webp /data/input.json /data/output.webp --fps 24 --quality 80
+```
+
 ### Running the Tool
 
 CLI usage:

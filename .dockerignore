@@ -1,0 +1,11 @@
+node_modules/
+temp/
+*.webp
+.git/
+.gitignore
+.DS_Store
+*.log
+.env
+.env.local
+README.md
+CLAUDE.md
