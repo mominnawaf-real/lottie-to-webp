@@ -1,0 +1,28 @@
+{
+  "name": "lottie-to-webp",
+  "version": "1.0.0",
+  "description": "Convert Lottie JSON animations to animated WebP files locally",
+  "main": "lottieToWebP.js",
+  "bin": {
+    "lottie2webp": "./cli.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "lottie",
+    "webp",
+    "animation",
+    "converter"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "puppeteer": "^23.0.0",
+    "yargs": "^17.7.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
